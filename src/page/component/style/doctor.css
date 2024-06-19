@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.doctor{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.doctor h3{
+    text-align: center;
+}
+.doctor p{
+    text-align: center;
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.5rem;
+}
+.page img{
+    height: 300px;
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    width: 100%;
+    border-radius: 10px;
+}
+.picture{
+    margin-top: 50px;
+    display: flex;
+   column-gap: 6rem;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.page h6{
+    color: black;
+    font-size: 1.5rem;
+
+}
+.page h7{
+color: #494949;
+}
+.page i{
+    color: yellow;
+    font-size: 1.4rem;
+    
+}

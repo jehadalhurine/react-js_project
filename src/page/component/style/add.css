@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.choose{
+    height: 50vh;
+    display: flex;
+align-content: center;
+}
+.imgsource img{
+    height: 100vh;
+    padding: 30px;
+}
+.contenttext h3{
+
+    padding: 30px;
+    text-align: start;
+    color: #1a8efd;
+    font-size: 3rem;
+    width: 700px;
+
+}
+.contenttext h5{
+    text-align: start;
+    line-height: 30px;
+    color: black;
+margin-left: 25px;
+    font-weight: 500;
+    width: 700px;
+}
+.contentchoose{
+    margin-left: 25px;
+}
+.contentchoose i {
+font-size: 1.5rem;
+color: #1a8efd;
+}
+.contentchoose p{
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+}
+.contentchoose button{
+    margin-top: 30px;
+    margin-top: 20px;
+    padding: 19px;
+    background-color:#1a8efd;
+    border-style:solid;
+    border-color: #1a8efd;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+cursor: pointer;
+}
+.contentchoose button:hover{
+    color: #1a8efd;
+    background-color: white;
+    transition: 0.6s;
+}

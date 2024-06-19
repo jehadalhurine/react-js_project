@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bookapp{
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    
+
+}
+h3{
+    color: #1a8efd;
+    font-size: 2rem;
+   text-align: left;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-style:none;
+    color: #1a8efd;
+    outline:none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #c9def4;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-style:none;
+    color: black;
+    outline:none;
+   
+    font-weight: 400;
+    background-color: #c9def4;
+}
+.bookapp button{
+    margin-top: 40px;
+    padding: 20px;
+    outline: none;
+    border-style: solid;
+    border-color:#1a8efd;
+    color: white;
+    background-color: #1a8efd;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: white;
+    color: #1a8efd;
+    transition: 0.5s;
+}

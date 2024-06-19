@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+a{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1a8efd;
+}
+span{
+    font-size: 3rem;
+    text-align: center;
+}

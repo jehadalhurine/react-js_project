@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.reviews{
+    height: 50vh;
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+padding: 30px;
+position: relative;
+}
+.reviews p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.reviews span{
+    width: 100%;
+font-size: 1.5rem;
+    color: #1a8efd;
+}
+.oneone{
+    width: 100%;
+    
+}
+
+h2{
+    width: auto;
+    color: black;
+ font-size: 2rem;
+
+}
+.oneone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 40px;
+
+}
+.oneone button{
+    padding: 20px;
+   background-color: #1a8efd;
+   font-size: 1.5rem;
+   outline: none;
+   border-style:solid;
+   border-color:#1a8efd;
+   color: white;
+
+}
